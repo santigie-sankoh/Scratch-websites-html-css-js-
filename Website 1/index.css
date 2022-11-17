@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: block;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo h1 span {
+    font-weight: 800px;
+}
+
+.navbar {
+    float: right;
+    height: 100%;
+}
+
+.navbar a {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+
+.navbar a:last-child {
+    padding-right: 0;
+}
+.navbar li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+.navbar li:hover {
+    color: rgb(144, 144, 144);
+  }
+
+.active {
+    color:rgba(220, 0, 0, 1);
+}
+
+
+.content {
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
+  }
+
+.footer {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: -40%;
+}
+
+.inner-footer {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.copyright {
+    height: 100%;
+    display: block;
+}
+
+.copyright p {
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+
+.main-header {
+    text-align: center;
+    color: rgb(248, 246, 246);
+    height: 600px;
+
+}
+
+.wrd {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wrd h1 {
+    text-transform: capitalize;
+    font-size:xx-large;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+}
+
+.wrd p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    font-style: italic;
+}
+.btn1 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(133, 133, 133);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-top: 20px;
+
+}
+
+.logo span {
+    color:gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-header img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
