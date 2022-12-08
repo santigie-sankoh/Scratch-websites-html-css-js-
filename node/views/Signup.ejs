@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FILE UPLOAD DEMO</title>
+	<rel rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" />
+	<style>
+		.form {
+			width: 50%;
+			margin: 0 auto;
+			margin-top: 50px;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.form h1 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.form span {
+			display: inline-block;
+			width: 150px;
+		}
+
+		.form input {
+			width: 300px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.form input[type="submit"] {
+			width: 100px;
+			margin-left: 155px;
+			margin-top: 10px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.form input[type="submit"]:hover {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"] {
+			width: 300px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.form input[type="file"]:hover {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button {
+			width: 100px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button:hover {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button:focus {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button:disabled {
+			background-color: #ccc;
+		}
+
+		.form input[type="file"]::-webkit-file-upload-button:enabled {
+			background-color: #ccc;
+		}
+
+		.submit {
+			width: 100px;
+			margin-left: 155px;
+			margin-top: 10px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.submit {
+			align-items: center;
+		}
+
+		.submit:hover {
+			background-color: #ccc;
+		}
+
+		.submit:active {
+			background-color: #ccc;
+		}
+
+		.submit:focus {
+			background-color: #ccc;
+		}
+
+		.submit:disabled {
+			background-color: #ccc;
+		}
+
+		.submit:enabled {
+			background-color: #ccc;
+		}
+
+		.file {
+			width: 300px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.file:hover {
+			background-color: #ccc;
+		}
+
+		.file:active {
+			background-color: #ccc;
+		}
+
+		.file:focus {
+			background-color: #ccc;
+		}
+
+		.file:disabled {
+			background-color: #ccc;
+		}
+
+		.file:enabled {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button {
+			width: 100px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.file::-webkit-file-upload-button:hover {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:focus {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:disabled {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:enabled {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:visited {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:link {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:visited {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:link {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:visited {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:link {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:visited {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:link {
+			background-color: #ccc;
+		}
+
+		.file::-webkit-file-upload-button:active {
+			background-color: #ccc;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="form">
+		<h1>Single File Upload Demo</h1>
+
+		<form action="/uploadProfilePicture" enctype="multipart/form-data" method="POST">
+
+			<span>Upload Profile Picture:</span>
+			<input type="file" name="mypic" required /> <br>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+</body>
+
+</html>
